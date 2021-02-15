@@ -5,3 +5,9 @@ for(var i = 0; i<mySampleArray.length; i = i + 1)
 {
 	console.log(mySampleArray[i]);
 }
+
+console.log("** For Desendente **");
+for(var i = 0; i<=mySampleArray.length - 1; i = i + 1)
+{
+	console.log(mySampleArray[i]);
+}

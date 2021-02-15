@@ -2,4 +2,13 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
+function filterByName(names, caracter){
+    return names.filter(function(item){
+        let existe = item.toLowerCase().includes(caracter);
+        if (existe === true){
+            return item;
+        }
+    })
+}
+
 console.log(filterByName(names, 'am'));

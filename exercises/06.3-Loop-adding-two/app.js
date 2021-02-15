@@ -5,3 +5,9 @@ for(var i = 0; i<mySampleArray.length; i = i + 1)
 {
 	console.log(mySampleArray[i]);
 }
+
+console.log("For con el cambio");
+for(var i = 0; i<mySampleArray.length; i = i + 2)
+{
+	console.log(mySampleArray[i]);
+}
